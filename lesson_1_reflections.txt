@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+b/c diff shows the difference. it’s much harder to identify the differences by looking at it with the human eye.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+can always go back to a previous version
+don’t have to manually save versions with naming convention
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+pros: more control—programmer has a better sense of good committing points, flexibility
+cons: could forget to commit or commit too much too little
+
+auto save pros: will always save on a predetermined interval useful if you forget to commit
+cons: commit point may not be at a good logical stopping point   
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately? 
+
+Git is for code, which usually requires multiple files to work together.
+tracking multiple (and finding the latest) versions for each of those files would be hard manage.
+
+
+
+Google Docs treats each file as mutually exclusive, it assumes the files aren’t interrelated. no need to treat files as groups
+
+How can you use the commands git log and git diff to view the history of files?
+
+you use git log to view full history of commits for repository
+use git diff to compare two commits to see the differences
+
+
+How might using version control make you more confident to make changes that could break something?
+
+b/c I could always go back to a previous working version…allows one to be more bold
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+simple version control for a directory of java code
+
+What have I learned so far?
+learned about git
+learned how to clone repository
+learned how to commit changes and when to commit changes
+learned how to checkout different versions to id errors
