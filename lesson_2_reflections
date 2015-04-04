@@ -1,0 +1,42 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+when you initialize a repository git creates a .git directory 
+as a hidden directory. Git uses this to keep history of repository
+
+you need the “git init” command to initialize a repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+working directory is the directory on the hard drive. but not all files in working directory are tracked. can use staging area to be specify which files to track. repository holds only the tracked files
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+you can stage the change and check to see the changes you plan to commit and can decide if those changes logically represent a change. you can choose to break up changes into more logical “chunks” by only committing some changes and not others.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches are helpful for experimenting with new features or working a bug. anytime doing something new. also useful to allow multiple collaborators to work at same time
+each can have a branch to work on a feature, for example
+
+How do the diagrams help you visualize the branch structure?
+
+diagrams can help you figure out where you are in the branch structure, if you’re on a commit that is outside the branch structure, how many commits you are away from the master
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is code that has the unique commits from each branch. The diagram shows the path for each commit history. Where the branch began and where it came back together. 
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+auto
+pros: removes some of the tedious work involved in combining code…reduces human error
+cons: doesn’t deconflict all changes..
+
+
+
+summary of the lesson:
+1) created a git repository and added commits to it
+2) used staging area to control exactly what changes go into a commit
+3) learned how to maintain parallel versions of your code using Git and merge the 2 two branches together into one combined version.
+
+next lesson will learn how to use GitHub to share with others.
